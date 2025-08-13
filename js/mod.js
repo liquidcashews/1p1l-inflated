@@ -1,7 +1,7 @@
 let modInfo = {
 	name: "1 point = 1 layer",
 	id: "one-points-one-layer",
-	author: "loader3229",
+	author: "bobert",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
@@ -13,7 +13,7 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "20",
+	num: "inflate",
 	name: "Imperium",
 }
 
@@ -98,8 +98,8 @@ function getRealPoints() {
 	return player.points;
 }
 
-function setRealPoints(s){
-	player.points;
+function setRealPoints(){
+	return player.points;
 }
 // You can add non-layer related variables that should to into "player" and be saved here, along with default values
 function addedPlayerData() { return {
