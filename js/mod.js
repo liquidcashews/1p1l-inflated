@@ -95,11 +95,11 @@ function getRealPointGen() {
 }
 
 function getRealPoints() {
-	return Decimal.pow(getPointBase(),Decimal.pow(2,player.points.mul(inChallenge("h",11)?2:1)));
+	return player.points;
 }
 
 function setRealPoints(s){
-	player.points=s.log(getPointBase()).log2().div(inChallenge("h",11)?2:1);
+	player.points;
 }
 // You can add non-layer related variables that should to into "player" and be saved here, along with default values
 function addedPlayerData() { return {
