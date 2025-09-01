@@ -74,8 +74,7 @@ function getPointBase(){
 }
 // Calculate points/sec!
 function getPointGen() {
-	let gain = getRealPoints().add(getRealPointGen()).log(getPointBase()).log2().div(inChallenge("h",11)?2:1).sub(player.points);
-	return gain
+	return getRealPointGen()
 }
 
 function getRealPointGen() {
