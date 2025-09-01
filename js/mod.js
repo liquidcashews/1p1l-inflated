@@ -110,7 +110,7 @@ var displayThings = [
 	"Mod Author: loader3229",
 	"Endgame: "+VERSION.num+" points",
 	function(){return "Point Gain: "+format(getRealPointGen())+"x"},
-	function(){return "Progress: "+format(player.points.mul(100).div(VERSION.num))+"%"},
+	function(){return "Progress: "+format(player.points.mul(100).div(29))+"%"},
 ]
 
 // Determines when the game "ends"
