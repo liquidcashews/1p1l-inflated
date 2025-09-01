@@ -74,7 +74,7 @@ function getPointBase(){
 }
 // Calculate points/sec!
 function getPointGen() {
-	return getRealPointGen()
+	return player.p.resetTime
 }
 
 function getRealPointGen() {

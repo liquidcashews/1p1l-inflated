@@ -5,6 +5,7 @@ addLayer("p", {
     startData() { return {
         unlocked: true,
         points: new Decimal(0),
+        resetTime: new Decimal (0),
         best: new Decimal(0),
         total: new Decimal(0),
     }},
